@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.parent {
+  margin-left: 18px;
+}
+
+hr {
+  background: gray;
+}
+
+.img {
+  width: 500px;
+  height: 300px;
+}
+
+button {
+  margin-left: 720px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+footer {
+  margin-left: 40%;
+}
+
+form {
+  padding-left: 690px;
+}
+
+.btn1 {
+  margin: 0px 0px 0px 70px;
+}
+
+.child {
+  padding: 0px 0px 0px 710px;
+}
+
+.parent2 {
+  padding-left: 672px;
+}
+
+.btn2 {
+  margin: 0px 0px 0px 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #e1e7ed;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #33363b;
+}
+
+p{
+  font-size: 14px;
+  color: #868d9b;
+}
+
+.card {
+  width: 360px;
+  height: auto;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 80px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card_profile_img {
+  width: 120px;
+  height: 120px;
+  background-color: #868d9b;
+  background: url("https://cdn-icons-png.flaticon.com/512/666/666201.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ffffff;
+  border-radius: 120px;
+  margin: 0 auto;
+  margin-top: -60px;
+
+}
+
+.card_background_img {
+  width: 100%;
+  height: 180px;
+  background-color: #e1e7ed;
+  /* background: url("https://source.unsplash.com/random/800x800/?img=1"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.user_details p {
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+.user_details h3 {
+  margin-top: 10px;
+}
+
+.card_count {
+  padding: 30px;
+  border-top: 1px solid #dde1e7;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.count p {
+  margin-top: -10px;
+}
+
+.btn {
+  padding: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #24c5a1;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
