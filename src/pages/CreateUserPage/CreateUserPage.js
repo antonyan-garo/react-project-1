@@ -86,7 +86,7 @@ function CreateUserPage() {
                 </div>
                 <button className='btn2' type="submit" onClick={() => createUser(name, email, phone, gender)}>Create</button>
             </form>
-            <button onClick={() => navigate("/UserDetailsPage")}>With</button>
+            <button id="btn5" onClick={() => navigate("/UserListPage")}>Back</button>
         </div>
     );
 }

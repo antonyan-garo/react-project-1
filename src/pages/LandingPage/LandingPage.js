@@ -103,16 +103,17 @@ function LandingPage() {
                 </section>
             </main>
 
-            <img src={ipsu} alt="images" className='img'/>
-            <img src={ips} alt="images" className='img'/>
-            <img src={ipsum} alt="images" className='img'/>
-
-            <footer>
-                <p>© 2023 My Website. All rights reserved.</p>
-            </footer>
-            <button onClick={() => navigate("/LoginPage")}>Login page</button>
+            <img src={ipsu} alt="images" className='img' />
+            <img src={ips} alt="images" className='img' />
+            <img src={ipsum} alt="images" className='img' />
+            <div className='parDivOne'>
+                <footer>
+                    <p>© 2023 My Website. All rights reserved.</p>
+                </footer>
+                <button className='btn01' onClick={() => navigate("/LoginPage")}>Login page</button>
+            </div>
         </div>
     );
 }
 
-export default LandingPage;
+export default React.memo(LandingPage);

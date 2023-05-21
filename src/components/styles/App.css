@@ -8,7 +8,8 @@
   /* text-align: center; */
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -38,7 +39,7 @@ footer {
 }
 
 form {
-  padding-left: 690px;
+  padding-left: 16px;
 }
 
 .btn1 {
@@ -50,7 +51,7 @@ form {
 }
 
 .parent2 {
-  padding-left: 672px;
+  padding-left: 8px;
 }
 
 .btn2 {
@@ -87,6 +88,7 @@ form {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -103,7 +105,7 @@ h3 {
   color: #33363b;
 }
 
-p{
+p {
   font-size: 14px;
   color: #868d9b;
 }
@@ -129,14 +131,20 @@ p{
   border-radius: 120px;
   margin: 0 auto;
   margin-top: -60px;
+}
 
+.user-details-img{
+  width: 120px;
+  height: 120px;
+  background-color: #868d9b;
+  border: 2px solid #ffffff;
+  border-radius: 120px;
 }
 
 .card_background_img {
   width: 100%;
   height: 180px;
   background-color: #e1e7ed;
-  /* background: url("https://source.unsplash.com/random/800x800/?img=1"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -181,3 +189,65 @@ p{
   font-weight: 600;
   text-transform: uppercase;
 }
+
+.parDivOne {
+  margin: 0px 329px 0px -144px;
+}
+
+.btn01 {
+  margin: 0px 0px 0px 514px;
+}
+
+.parDivTwo {
+  margin-right: 710px;
+}
+
+.parentDivThree {
+  margin-right: 720px;
+}
+
+.parDivFore {
+  margin-right: 706px;
+}
+
+#btn5 {
+  margin-right: 671px;
+}
+
+.user-details-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.user-details-title {
+  color: grey;
+  font-size: 18px;
+}
+
+.user-details-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  justify-content: center;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
